@@ -1,0 +1,25 @@
+.navbar {
+  grid-column: 1/2;
+  background: #006699;
+
+  ul {
+    li {
+      padding: 5px;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    li:last-child {
+      margin-top: 20px;
+    }
+
+    li:hover {
+      background: #206d94;
+      border-right: 2px solid #FF9900;
+      transition: 100ms;
+    }
+  }
+}

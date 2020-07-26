@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+}
+
+$color: red;
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 80px auto;
+
+  .header {
+    grid-row: 1/2;
+    background: #006699;
+    
+    img {
+      height: 100%;
+    }
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: minmax(min-content, 100px) 1fr;
+    gap: 10px;
+    grid-row: 2/3;
+    height: 500px;
+    
+    .content {
+      
+    }
+  }
+}
